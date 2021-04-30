@@ -1,6 +1,7 @@
 # UNET MASKS AUGMENTATOR
 
 This project is good startup for NN architecture tests with [comma10k dataset](https://github.com/commaai/comma10k).
+---
 Just put full imgs and mask folders here from it.
 And run <pre>NN.py</pre> to train any NN architecture you want.
 It contains Generator class with all required functions for training NN (augmentation, mask transform and labeling classes), and can visualize NN results on real car driving videos from dash cam.
