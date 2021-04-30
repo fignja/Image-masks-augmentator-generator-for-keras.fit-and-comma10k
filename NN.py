@@ -81,18 +81,18 @@ test_gen=generator.ImageMaskAUGGenerator(test,testy,batchSize=20,img_width=128, 
 #while(True):
 	#next(train_gen)
 
-
-#model=PIETZ_UNET.UNet((128, 128,3), out_ch=5, start_ch=32, depth=4, inc_rate=2., activation='relu', dropout=0.5, batchnorm=False, maxpool=True, upconv=True, residual=False)
-
-
+#Initialization of NN model
+model=PIETZ_UNET.UNet((128, 128,3), out_ch=5, start_ch=32, depth=4, inc_rate=2., activation='relu', dropout=0.5, batchnorm=False, maxpool=True, upconv=True, residual=False)
 
 
 
 
 
 
-model=load_model('themodel')
-opt = SGD(lr=0.01, momentum=0.9, nesterov=True)
+
+
+#model=load_model('themodel')
+#opt = SGD(lr=0.01, momentum=0.9, nesterov=True)
 
 model.compile(loss="categorical_crossentropy", optimizer=opt,metrics=["accuracy"])
 
