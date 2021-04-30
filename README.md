@@ -1,6 +1,6 @@
 # UNET MASKS AUGMENTATOR
 
-This project (I suppose) is good startup for NN architecture/input images transforms tests with [comma10k dataset.](https://github.com/commaai/comma10k).
+This project (I suppose) is good startup for NN architecture/input images transforms tests with [@comma.ai](https://github.com/commaai)'s [comma10k dataset.](https://github.com/commaai/comma10k).
 ---
 Just put full imgs and mask folders here from it.
 And run <pre>NN.py</pre> to train any NN architecture you want.
